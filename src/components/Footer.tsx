@@ -125,13 +125,13 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <span className="font-serif text-xl font-semibold text-primary-foreground">
+            <span className="font-serif text-xl font-semibold text-primary-foreground order-first">
               Mazar
             </span>
-            <p className="text-primary-foreground/60 font-sans text-sm text-center">
+            <p className="text-primary-foreground/60 font-sans text-sm text-center flex-1">
               © {new Date().getFullYear()} Mazar Antiques. All rights reserved.
             </p>
-            <p className="text-primary-foreground/60 font-sans text-sm">
+            <p className="text-primary-foreground/60 font-sans text-sm order-last">
               Made with ❤️ in Egypt
             </p>
           </div>
