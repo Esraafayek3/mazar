@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center h-20 relative">
           {/* Logo Text Only - Left */}
           <a href="#home" className="flex items-center">
             <span className="font-serif text-2xl font-semibold text-foreground">
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
 
           {/* CTA Button - Right */}
-          <a href="#contact" className="hidden md:block btn-gold text-sm ml-auto">
+          <a href="#contact" className="hidden md:block btn-gold text-sm absolute right-0">
             Get in Touch
           </a>
 
