@@ -1,26 +1,24 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/mazar-logo.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "الرئيسية" },
-    { href: "#services", label: "خدماتنا" },
-    { href: "#gallery", label: "معرضنا" },
-    { href: "#about", label: "من نحن" },
-    { href: "#contact", label: "تواصل معنا" },
+    { href: "#home", label: "Home" },
+    { href: "#services", label: "Services" },
+    { href: "#gallery", label: "Gallery" },
+    { href: "#about", label: "About" },
+    { href: "#contact", label: "Contact" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <a href="#home" className="flex items-center gap-3">
-            <img src={logo} alt="Mazar Antiques" className="h-14 w-14 object-cover rounded-full" />
-            <span className="font-serif text-2xl font-semibold text-foreground hidden sm:block">
+          {/* Logo Text Only */}
+          <a href="#home" className="flex items-center">
+            <span className="font-serif text-2xl font-semibold text-foreground">
               Mazar
             </span>
           </a>
@@ -40,7 +38,7 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <a href="#contact" className="hidden md:block btn-gold text-sm">
-            تواصل الآن
+            Get in Touch
           </a>
 
           {/* Mobile Menu Button */}
@@ -68,7 +66,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a href="#contact" className="btn-gold text-center mt-2">
-                تواصل الآن
+                Get in Touch
               </a>
             </div>
           </div>
