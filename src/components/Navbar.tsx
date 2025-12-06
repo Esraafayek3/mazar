@@ -15,16 +15,16 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center h-20 relative">
+        <div className="flex items-center justify-between h-20">
           {/* Logo Text Only - Left */}
-          <a href="#home" className="flex items-center">
+          <a href="#home" className="flex items-center flex-shrink-0">
             <span className="font-serif text-2xl font-semibold text-foreground">
               Mazar
             </span>
           </a>
 
           {/* Desktop Navigation - Center */}
-          <div className="hidden md:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+          <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
 
           {/* CTA Button - Right */}
-          <a href="#contact" className="hidden md:block btn-gold text-sm absolute right-0">
+          <a href="#contact" className="hidden md:block btn-gold text-sm flex-shrink-0">
             Get in Touch
           </a>
 
