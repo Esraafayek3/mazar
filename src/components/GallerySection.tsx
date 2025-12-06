@@ -6,14 +6,22 @@ import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
 import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
+import gallery7 from "@/assets/gallery-7.jpg";
+import gallery8 from "@/assets/gallery-8.jpg";
+import gallery9 from "@/assets/gallery-9.jpg";
+import gallery10 from "@/assets/gallery-10.jpg";
 
 const galleryImages = [
-  { src: gallery1, alt: "فازات سيراميك أنيقة", category: "فازات" },
-  { src: gallery2, alt: "فازات بإطار ذهبي", category: "فازات" },
-  { src: gallery3, alt: "فازات فنية مميزة", category: "فازات" },
-  { src: gallery4, alt: "فازات هندسية ذهبية", category: "فازات" },
-  { src: gallery5, alt: "فازات لولبية أنيقة", category: "فازات" },
-  { src: gallery6, alt: "فازات مودرن فريدة", category: "ديكور" },
+  { src: gallery1, alt: "Elegant Ceramic Vases", category: "Vases" },
+  { src: gallery2, alt: "Gold Frame Vases", category: "Vases" },
+  { src: gallery3, alt: "Artistic Unique Vases", category: "Vases" },
+  { src: gallery4, alt: "Golden Geometric Vases", category: "Vases" },
+  { src: gallery5, alt: "Elegant Spiral Vases", category: "Vases" },
+  { src: gallery6, alt: "Modern Unique Vases", category: "Decor" },
+  { src: gallery7, alt: "Bohemian Wall Art Collection", category: "Wall Art" },
+  { src: gallery8, alt: "Black & White Botanical Prints", category: "Wall Art" },
+  { src: gallery9, alt: "Abstract Line Art Collection", category: "Wall Art" },
+  { src: gallery10, alt: "Tropical Leaves Art Set", category: "Wall Art" },
 ];
 
 const GallerySection = () => {
@@ -25,16 +33,16 @@ const GallerySection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="text-primary font-sans text-sm tracking-[0.3em] uppercase mb-4 block">
-            معرضنا
+            Our Gallery
           </span>
-          <h2 className="section-title gold-underline pb-4">تشكيلتنا المميزة</h2>
+          <h2 className="section-title gold-underline pb-4">Featured Collection</h2>
           <p className="section-subtitle mt-6">
-            اكتشف مجموعة من أجمل وأرقى قطع الأنتيكات والديكور
+            Discover our exquisite collection of antiques and decor pieces
           </p>
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {galleryImages.map((image, index) => (
             <div
               key={index}
@@ -65,7 +73,7 @@ const GallerySection = () => {
         {/* View More Button */}
         <div className="text-center mt-12">
           <a href="#contact" className="btn-outline-gold">
-            اطلب تشكيلتك الآن
+            Order Your Collection Now
           </a>
         </div>
       </div>

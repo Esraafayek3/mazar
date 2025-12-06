@@ -3,23 +3,23 @@ import { Award, Heart, Clock, MessageCircle } from "lucide-react";
 const features = [
   {
     icon: Award,
-    title: "جودة عالية",
-    description: "نستخدم أفضل الخامات لضمان منتجات تدوم طويلاً",
+    title: "High Quality",
+    description: "We use the finest materials to ensure long-lasting products",
   },
   {
     icon: Heart,
-    title: "صنع بحب",
-    description: "كل قطعة تُصنع بعناية فائقة واهتمام بأدق التفاصيل",
+    title: "Made with Love",
+    description: "Every piece is crafted with utmost care and attention to detail",
   },
   {
     icon: Clock,
-    title: "سرعة في التنفيذ",
-    description: "نلتزم بمواعيد التسليم ونحرص على رضاك التام",
+    title: "Fast Delivery",
+    description: "We commit to delivery schedules and ensure your complete satisfaction",
   },
   {
     icon: MessageCircle,
-    title: "دعم مستمر",
-    description: "فريقنا متاح دائماً للإجابة على استفساراتك",
+    title: "Ongoing Support",
+    description: "Our team is always available to answer your inquiries",
   },
 ];
 
@@ -30,11 +30,11 @@ const WhyUsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="text-primary font-sans text-sm tracking-[0.3em] uppercase mb-4 block">
-            لماذا نحن
+            Why Us
           </span>
-          <h2 className="section-title gold-underline pb-4">ما يميزنا</h2>
+          <h2 className="section-title gold-underline pb-4">What Sets Us Apart</h2>
           <p className="section-subtitle mt-6">
-            نسعى دائماً لتقديم تجربة مميزة لكل عميل
+            We always strive to provide a unique experience for every customer
           </p>
         </div>
 
@@ -69,16 +69,16 @@ const WhyUsSection = () => {
           </div>
           <div className="relative z-10">
             <h3 className="font-serif text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-              هل لديك فكرة تصميم خاصة؟
+              Have a Custom Design Idea?
             </h3>
             <p className="text-primary-foreground/90 font-sans text-lg mb-8 max-w-2xl mx-auto">
-              شاركنا رؤيتك وسنحولها إلى قطعة فنية فريدة تناسب ذوقك
+              Share your vision with us and we'll turn it into a unique art piece that matches your taste
             </p>
             <a
               href="#contact"
               className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-sm font-sans font-medium tracking-wide transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
             >
-              ابدأ الآن
+              Start Now
             </a>
           </div>
         </div>

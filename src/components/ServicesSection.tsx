@@ -3,23 +3,23 @@ import { Truck, Palette, Sparkles, ShieldCheck } from "lucide-react";
 const services = [
   {
     icon: Sparkles,
-    title: "تشكيلة متنوعة",
-    description: "نوفر لك أرقى وأجمل قطع الأنتيكات بأشكال وتصاميم مختلفة تناسب جميع الأذواق",
+    title: "Diverse Collection",
+    description: "We offer the finest and most beautiful antique pieces in various shapes and designs to suit all tastes",
   },
   {
     icon: Palette,
-    title: "تصميم حسب الطلب",
-    description: "نصنع لك القطعة التي تحلم بها بالشكل والحجم واللون الذي تريده",
+    title: "Custom Design",
+    description: "We create the piece you dream of in the shape, size, and color you desire",
   },
   {
     icon: Truck,
-    title: "توصيل لأي مكان",
-    description: "نوصل طلبك لأي مكان بأمان وسرعة مع ضمان وصول المنتج بحالة ممتازة",
+    title: "Delivery Anywhere",
+    description: "We deliver your order anywhere safely and quickly with guaranteed excellent condition",
   },
   {
     icon: ShieldCheck,
-    title: "جودة مضمونة",
-    description: "جميع منتجاتنا مصنوعة من أفضل الخامات مع ضمان الجودة والمتانة",
+    title: "Guaranteed Quality",
+    description: "All our products are made from the finest materials with quality and durability guaranteed",
   },
 ];
 
@@ -30,11 +30,11 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="text-primary font-sans text-sm tracking-[0.3em] uppercase mb-4 block">
-            خدماتنا
+            Our Services
           </span>
-          <h2 className="section-title gold-underline pb-4">ماذا نقدم لك</h2>
+          <h2 className="section-title gold-underline pb-4">What We Offer</h2>
           <p className="section-subtitle mt-6">
-            نسعى دائماً لتقديم أفضل الخدمات لعملائنا الكرام
+            We always strive to provide the best services for our valued customers
           </p>
         </div>
 

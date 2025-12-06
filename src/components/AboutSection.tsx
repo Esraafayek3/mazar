@@ -17,30 +17,30 @@ const AboutSection = () => {
               <div className="absolute -bottom-8 -right-8 bg-card p-6 rounded-xl shadow-lg border border-border">
                 <div className="text-center">
                   <span className="block font-serif text-4xl font-bold text-primary">+500</span>
-                  <span className="text-muted-foreground font-sans text-sm">عميل سعيد</span>
+                  <span className="text-muted-foreground font-sans text-sm">Happy Clients</span>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Content */}
-          <div className="text-right">
+          <div>
             <span className="text-primary font-sans text-sm tracking-[0.3em] uppercase mb-4 block">
-              من نحن
+              About Us
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">
-              قصتنا مع
-              <span className="text-primary"> الفن والأناقة</span>
+              Our Story with
+              <span className="text-primary"> Art & Elegance</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans leading-relaxed">
               <p>
-                مزار للأنتيكات هو وجهتك الأولى للحصول على أرقى قطع الديكور والأنتيكات التي تضفي لمسة فريدة من الأناقة والفخامة على منزلك.
+                Mazar Antiques is your premier destination for the finest decor and antique pieces that add a unique touch of elegance and luxury to your home.
               </p>
               <p>
-                نحن نؤمن بأن كل قطعة تحكي قصة، ولذلك نحرص على اختيار أجود المواد وأدق التفاصيل لنقدم لك منتجات استثنائية تدوم لسنوات طويلة.
+                We believe that every piece tells a story, which is why we carefully select the finest materials and pay attention to the smallest details to offer you exceptional products that last for years.
               </p>
               <p>
-                سواء كنت تبحث عن قطعة جاهزة أو ترغب في تصميم خاص يعكس ذوقك الشخصي، فريقنا مستعد دائماً لتحقيق رؤيتك وتحويلها إلى واقع.
+                Whether you're looking for a ready-made piece or want a custom design that reflects your personal taste, our team is always ready to bring your vision to life.
               </p>
             </div>
 
@@ -48,15 +48,15 @@ const AboutSection = () => {
             <div className="grid grid-cols-3 gap-8 mt-10 pt-10 border-t border-border">
               <div className="text-center">
                 <span className="block font-serif text-3xl font-bold text-primary">+1000</span>
-                <span className="text-muted-foreground font-sans text-sm">قطعة مباعة</span>
+                <span className="text-muted-foreground font-sans text-sm">Pieces Sold</span>
               </div>
               <div className="text-center">
                 <span className="block font-serif text-3xl font-bold text-primary">+50</span>
-                <span className="text-muted-foreground font-sans text-sm">تصميم مخصص</span>
+                <span className="text-muted-foreground font-sans text-sm">Custom Designs</span>
               </div>
               <div className="text-center">
                 <span className="block font-serif text-3xl font-bold text-primary">+20</span>
-                <span className="text-muted-foreground font-sans text-sm">محافظة</span>
+                <span className="text-muted-foreground font-sans text-sm">Cities Served</span>
               </div>
             </div>
           </div>
