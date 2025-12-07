@@ -132,7 +132,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Mazar Antiques. All rights reserved.
             </p>
             <p className="text-primary-foreground/60 font-sans text-sm order-last">
-              Made with ❤️ in Egypt
+              Made with love in Egypt
             </p>
           </div>
         </div>
