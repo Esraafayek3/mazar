@@ -10,6 +10,10 @@ import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
 import gallery10 from "@/assets/gallery-10.jpg";
+import gallery11 from "@/assets/gallery-11.jpg";
+import gallery12 from "@/assets/gallery-12.jpg";
+import gallery13 from "@/assets/gallery-13.jpg";
+import gallery14 from "@/assets/gallery-14.jpg";
 
 const galleryImages = [
   { src: gallery1, alt: "Elegant Ceramic Vases", category: "Vases" },
@@ -22,6 +26,10 @@ const galleryImages = [
   { src: gallery8, alt: "Black & White Botanical Prints", category: "Wall Art" },
   { src: gallery9, alt: "Abstract Line Art Collection", category: "Wall Art" },
   { src: gallery10, alt: "Tropical Leaves Art Set", category: "Wall Art" },
+  { src: gallery11, alt: "White Gold Ruffled Vase", category: "Vases" },
+  { src: gallery12, alt: "Geometric Gold Accent Vase", category: "Vases" },
+  { src: gallery13, alt: "Bohemian Loop Vases Set", category: "Vases" },
+  { src: gallery14, alt: "Black & Gold Textured Vase", category: "Vases" },
 ];
 
 const GallerySection = () => {
